@@ -1,0 +1,192 @@
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    background-color: black;
+    z-index: 100;
+}
+
+.headerLogo{
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 300px;
+}
+
+.headerCenter{
+    display: flex;
+    align-items: center;
+}
+
+.header_home{
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-right: 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgb(46, 46, 46);
+    cursor: pointer;
+    transition: transform 0.03s ease;
+    transform-origin: center;
+}
+
+.headerHome{
+    height: 16px;
+}
+
+.header_home:hover{
+    transform: scale(1.08);
+    background-color: rgb(55, 55, 55);
+}
+
+.header_searchbar{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(46, 46, 46);
+    cursor: pointer;
+}
+
+.searchButton{
+    height: 15px;
+    color:rgb(180, 180, 180);
+}
+
+.header_searchbar_search{
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 300px;
+    border: none;
+    font-size: 12px;
+    color:rgb(180, 180, 180);
+    border-right: 1px solid rgb(180, 180, 180);
+    background-color: rgb(0, 0, 0, 0);
+}
+
+.header_searchbar:hover{
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0px 0px 2px white;
+    .searchButton{
+        color:rgb(243, 243, 243);
+    }
+}
+
+.header_searchbar_search:focus{
+    outline: none;
+}
+
+.searchBrowser{
+    height: 18px;
+    color: rgb(180, 180, 180);
+    transition: transform 0.05s ease;
+    transform-origin: center;
+}
+
+.searchBrowser:hover{
+    transform: scale(1.08);
+    color: rgb(214, 214, 214);
+}
+
+.headerRight{
+    display: flex;
+    align-items: center;
+}
+
+.headerRightB1{
+    padding: 5px 10px 5px 10px;
+    height: 22px;
+    width: 105px;
+    border: none;
+    border-radius: 11px;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.05s ease;
+    transform-origin: center;
+}
+
+.headerRightB1:hover{
+    transform: scale(1.03);
+}
+
+.headerRightB2{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    padding: 5px 10px 5px 10px;
+    height: 28px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-size: 10px;
+    color: rgb(180, 180, 180);
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.03s ease;
+    transform-origin: center;
+}
+
+.headerRightB2:hover{
+    transform: scale(1.03);
+}
+
+.headerRightDownload{
+    height: 12px;
+    margin-right: 4px;
+}
+
+.notification{
+    margin-right: 20px;
+    height: 14px;
+    cursor: pointer;
+    color:rgb(180, 180, 180);
+    transition: transform 0.03s ease;
+    transform-origin: center;
+}
+
+.notification:hover{
+    color: rgb(214, 214, 214);
+    transform: scale(1.1);
+}
+
+.group{
+    margin-right: 20px;
+    height: 14px;
+    cursor: pointer;
+    color:rgb(180, 180, 180);
+    transition: transform 0.03s ease;
+    transform-origin: center;
+}
+
+.group:hover{
+    color: rgb(214, 214, 214);
+    transform: scale(1.1);
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    border:3.5px solid;
+    border-color: rgb(59, 59, 59);
+    background-color: bisque;
+    height: 26px;
+    width: 26px;
+    border-radius: 13px;
+    cursor: pointer;
+    transition: transform 0.03s ease;
+    transform-origin: center;
+}
+
+.userInfo:hover{
+    transform: scale(1.1);
+}

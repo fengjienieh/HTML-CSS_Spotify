@@ -1,0 +1,280 @@
+.navLeft{
+    position: fixed;
+    left: 0;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px 5px 5px;
+    background-color: rgb(22, 22, 22);
+    width: 300px;
+    height: 740px;
+    border-radius: 5px;
+}
+
+
+
+.navLeftTittle{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.navLeftTittle p{
+    margin: 0 80px 0 15px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.navLeftTittle button{
+    display: flex;
+    align-items: center;
+    height: 26px;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-size: 10px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.navLeftTittlePlus{
+    color: rgb(180, 180, 180);
+    height: 10px;
+    margin-right: 5px;
+}
+
+.navLeftTittle button:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+.navLeftTittle button:hover svg{
+    color: rgb(255, 255, 255);
+}
+
+.navLeftTittleZoom{
+    height: 14px;
+    margin-right: 15px;
+    color: rgb(180, 180, 180);
+    transition: transform 0.03s ease;
+    transform-origin: center;
+    cursor: pointer;
+}
+
+.navLeftTittleZoom:hover{
+    transform: scale(1.1);
+    color: rgb(233, 233, 233);
+}
+
+
+
+.navLeftCategory{
+    margin-left: 10px;
+}
+
+.navLeftCategory button{
+    height: 26px;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.navLeftCategory button:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+
+
+.navLeftSearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navLeftSearchSearchButton{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(22, 22, 22);
+}
+
+.navLeftSearchSearchIcon{
+    color: rgb(180, 180, 180);
+    height: 13px;
+}
+
+.navLeftSearchSearchButton:hover .navLeftSearchSearchIcon{
+    transform: scale(1.1);
+    color: rgb(233, 233, 233);
+}
+
+.navLeftSearchSortButton{
+    display: flex;
+    align-items: center;
+    color: rgb(180, 180, 180);
+    border: none;
+    background-color: rgb(22, 22, 22);
+    font-size: 10px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.navLeftSearchSortIcon{
+    margin-left: 6px;
+    height: 11px;
+    color: rgb(180, 180, 180);
+}
+
+.navLeftSearchSortButton:hover {
+    transform: scale(1.05);
+    color: rgb(233, 233, 233);
+}
+
+.navLeftSearchSortButton:hover .navLeftSearchSortIcon{
+    transform: scale(1.05);
+    color: rgb(233, 233, 233);
+}
+
+
+
+.navLeftPlaylists{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.navLeftPlaylistsLiked{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    margin-top: 5px;
+    margin-right: 8px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.navLeftPlaylistsLiked:hover .navLeftPlay{
+    opacity: 1;
+}
+
+.navLeftPlay{
+    background-color: rgba(56, 56, 56, 0.5);
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    margin-left: -5px;
+    border-radius: 3px;
+    opacity: 0;
+}
+
+.navLeftPlayIcon{
+    position: absolute;
+    left: 13px;
+    top: 13px;
+    height: 18px;
+}
+
+.navLeftPlaylistsLiked img{
+    height: 35px;
+    border-radius: 2px;
+}
+
+.navLeftPlaylistsLikedInfo{
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-start;
+    margin-left: 8px;
+    z-index: 2;
+}
+
+.navLeftPlaylistsLikedInfo p{
+    color: white;
+    font-size: 12px;
+}
+
+.navLeftPlaylistsLikedSubInfo p{
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+    margin-top: 2px;
+    
+}
+
+.navLeftPlaylistsLikedInfo div{
+    display: flex;
+    align-items: center;
+}
+.navLeftPlaylistsLikedInfoStick{
+    height: 8px;
+}
+
+
+.navLeftPlaylistsArtist{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+    margin-top: 5px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.navLeftPlaylistsArtist:hover .navLeftPlay{
+    opacity: 1;
+}
+
+.navLeftPlaylistsArtist img{
+    height: 36px;
+    border-radius: 18px;
+}
+
+.navLeftPlaylistsArtistInfo{
+    display: flex;
+    flex-direction: column;   
+    align-items: flex-start;
+    margin-left: 12px;
+    z-index: 2;
+}
+
+.navLeftPlaylistsArtistInfo p{
+    color: white;
+    font-size: 12px;
+}
+
+.navLeftPlaylistsArtistSubInfo p{
+    color: rgb(180, 180, 180);
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.navLeftPlaylistsArtistInfo div{
+    display: flex;
+    align-items: center;
+}

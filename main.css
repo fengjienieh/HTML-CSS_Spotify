@@ -1,0 +1,235 @@
+main{ 
+    position: absolute; 
+    top: 50px; 
+    margin-left: 312px; 
+    background-image: linear-gradient(to bottom, rgb(49, 39, 92), rgb(22, 22, 22), rgb(22, 22, 22)); 
+    border-radius: 5px; 
+    width: 62.5%; 
+    height: 750px; 
+    box-sizing: border-box; 
+    overflow-y: overlay; 
+} 
+main::-webkit-scrollbar { 
+    width: 8px; 
+} 
+main::-webkit-scrollbar-thumb { 
+    background: #70707027; 
+} 
+main::-webkit-scrollbar-thumb:hover{ 
+    background: #70707063; 
+} 
+
+
+.mainTopButton{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.mainTopButton button{
+    height: 26px;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    background-color: rgb(66, 59, 102);
+    font-size: 10px;
+    font-weight: 500;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+}
+
+.mainTopButton button:hover{
+    background-color: rgb(78, 70, 110);
+}
+
+
+
+
+.mainTopList{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    flex-direction: row;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    margin-left: 25px;
+    padding: 0;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    cursor: pointer;
+}
+
+.mainTopListPlayIcon {
+    position: absolute;
+    bottom: 6px;
+    right: 12px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    background-color: #1db954;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+
+.mainTopListItem{
+    display: flex;
+    align-items: center;
+    border: none;
+    position: relative;
+    border-radius: 3px;
+    margin-right: 15px;
+    width: 320px;
+    background-color: rgb(66, 59, 102);
+    transition: background-color 0.2s ease;
+}
+
+.mainTopListItem:hover{
+    background-color: rgb(78, 70, 110);
+}
+
+.mainTopListItem:hover .mainTopListPlayIcon{
+    opacity: 1;
+}
+
+.mainTopList img{
+    height: 45px;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 4px 0 20px -2px rgba(0, 0, 0, 0.3);
+}
+
+.mainTopListInfo{
+    display: flex;
+    flex-direction: row;   
+    align-items: flex-start;
+    margin-left: 10px;
+    background-color: transparent !important;
+}
+
+.mainTopListInfo p{
+    color: white;
+    font-size: 12px;
+    font-weight: 550;
+}
+
+
+
+
+.mainCenterList{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.mainCenterListSubTitle{
+    font-size: 10px;
+    color: rgb(180, 180, 180);
+}
+
+.mainCenterListTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+.mainCenterListTitleLeft{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.mainCenterListTitleLeft:hover{
+    text-decoration: underline;
+}
+
+.mainCenterListTitleRight{
+    font-size: 10px;
+    color: rgb(180, 180, 180);
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.mainCenterListTitleRight:hover{
+    text-decoration: underline;
+}
+
+.mainCenterListInfoList{
+    display: flex;
+    flex-direction: row;
+}
+
+.mainCenterListInfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-left: -8px;
+    padding: 8px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+.mainCenterListInfoIcon {
+    position: absolute;
+    top: 105px;
+    right: 13px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+    background-color: #1db954;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease, top 0.2s ease;
+}
+
+.mainCenterListInfo:hover .mainCenterListInfoIcon{
+    top: 98px;
+    opacity: 1;
+}
+
+
+.mainCenterListInfo:hover{
+    background-color: rgba(145, 145, 145, 0.192);
+    border-radius: 5px;
+}
+
+.mainCenterListInfoImg{
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.mainCenterListInfoTitle{
+    font-size: 12px;
+    color: rgb(180, 180, 180);
+    width: 120px;
+}
+
+.mainCenterListInfoSubTitle{
+    margin-top: 2px;
+    font-size: 10px;
+    color: rgb(180, 180, 180);
+    width: 120px;
+}

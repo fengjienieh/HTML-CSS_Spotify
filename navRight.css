@@ -1,0 +1,265 @@
+.navRight{
+    position: fixed;
+    right: 0;
+    top: 50px;
+    flex-direction: column;
+    background-color: rgb(22, 22, 22);
+    width: 318px;
+    height: 740px;
+    border-radius: 5px;
+    overflow-y: overlay; 
+    color: white;
+    overflow-y: overlay; 
+}
+
+.navRight::-webkit-scrollbar { 
+    width: 8px; 
+} 
+.navRight::-webkit-scrollbar-thumb { 
+    background: #70707027; 
+} 
+.navRight::-webkit-scrollbar-thumb:hover{ 
+    background: #70707063; 
+} 
+
+.navRightTitle{
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.navRightTitle:hover{
+    text-decoration: underline;
+}
+
+.navRight > img{
+    margin: 10px;
+    height: 288px;
+    width: 288px;
+    border-radius: 5px;
+}
+
+.navRightSwitchButton{
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    border: none;
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-size: 10px;
+    font-weight: 600;
+    height: 26px;
+    margin-left: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    transition: transform 0.03s ease;
+    transform-origin: center;
+}
+
+.navRightSwitchButton:hover{
+    transform: scale(1.05);
+    font-weight: 550;
+}
+
+.navRightSwitchButtonIcon{
+    height: 10px;
+    margin-right: 5px
+}
+
+
+.navRightSong{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 12px;
+}
+
+.navRightSongInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-left: 10px;
+    
+}
+
+.navRightSongInfo > h4{
+    margin: 0;
+    cursor: pointer;
+}
+
+.navRightSongInfo > h4:hover{
+    text-decoration: underline;
+}
+
+
+.navRightSongInfo > p{
+    margin: 0;
+    font-size: 11px;
+    color: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+.navRightSongInfo > p:hover{
+    text-decoration: underline;
+}
+
+.navRightSongIcon{
+    color: #1db954;
+    height: 14px;
+    cursor: pointer;
+    transition: transform 0.03s ease;
+    transform-origin: center;
+}
+
+.navRightSongIcon:hover{
+    transform: scale(1.1);
+}
+
+
+.navRightRelat{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navRightRelat > h6{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.navRightRelatTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navRightRelatTopOne{
+    display: flex;
+    flex-direction: column;
+}
+
+.navRightRelatTopOne:hover{
+    background-color: rgb(40, 40, 40);
+    border-radius: 4px;
+    padding: 7px;
+    margin: -7px;
+}
+
+.navRightRelatTopOne img{
+    height: 95px;
+    width: 138px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.navRightRelatTopOneTitle{
+    font-size: 12px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.navRightRelatTopOneTitle:hover{
+    text-decoration: underline;
+}
+
+.navRightRelatTopOneSubTitle{
+    font-size: 11px;
+    color: rgb(180, 180, 180);
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.navRightRelatTopOneSubTitle:hover{
+    text-decoration: underline;
+}
+
+.navRightRelatBottom{
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(40, 40, 40);
+    margin-top: 16px;
+    margin-bottom: 200px;
+    padding-bottom: 10px;
+}
+
+.aboutTheArtist{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.459)0%, rgba(0, 0, 0, 0.103)30%, rgba(255, 255, 255, 0));
+}
+
+.aboutTheArtist h5{
+    margin-top: 16px;
+    margin-left: 14px;
+}
+
+.navRightRelatBottom > img{
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.navRightRelatBottom h5{
+    margin: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navRightRelatBottom h5:hover{
+    text-decoration: underline;
+}
+
+.navRightRelatBottomFollow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    color: rgb(180, 180, 180);
+    margin: 12px;
+    margin-left: 10px;
+}
+
+.navRightRelatBottomFollow button{
+    display: flex;
+    align-items: center;
+    border-radius: 13px;
+    border: 1px solid rgb(180, 180, 180);
+    color: white;
+    background-color: rgb(37, 37, 37);
+    font-size: 10px;
+    font-weight: 600;
+    height: 26px;
+    margin-left: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+    transition: transform 0.03s ease;
+    transform-origin: center;
+}
+
+.navRightRelatBottomFollow button:hover{
+    transform: scale(1.03);
+    font-size: 10.1px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.navRightRelatBottom > p{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: rgb(180, 180, 180);
+    line-height: 15px;
+    display: -webkit-box;           
+    -webkit-box-orient: vertical;   
+    -webkit-line-clamp: 3;         
+    overflow: hidden;
+}
